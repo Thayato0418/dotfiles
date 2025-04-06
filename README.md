@@ -1,5 +1,3 @@
-# いろんなdotfileの置き場所
-
 ## [fish_prompt.fish](https://github.com/Thayato0418/dotfiles/fish_prompt.fish)
 - 参照：https://github.com/kurenaif
 ## [.vimrc](https://github.com/Thayato0418/dotfiles/.vimrc)
