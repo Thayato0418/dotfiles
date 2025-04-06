@@ -4,8 +4,8 @@
 - `plug 'morhetz/gruvbox'`のPlugInstallのながれ
   - `cd ~/.vim/bundle/`
     
-  - `git clone https://github.com/ajmwagar/vim-deus`<br>
-    →https://github.com/ajmwagar/vim-deus
+  - `git clone https://github.com/morhetz/gruvbox`<br>
+    →https://github.com/morhetz/gruvbox
     
   - ~/.vimrcに以下を記載する
     ```
