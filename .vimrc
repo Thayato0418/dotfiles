@@ -9,9 +9,6 @@ nnoremap <C-s> 0xx
 set cursorline                     " Highlight the current line
 set cursorcolumn                   " Highlight the current column
 
-set cursorline                     " Change the background color of the cursor line
-set cursorcolumn                   " Change the background color of the cursor column
-
 set laststatus=2                   " Always show the status line
 set cmdheight=2                    " Allocate 2 lines for the message area
 
