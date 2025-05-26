@@ -1,3 +1,4 @@
+set number
 set relativenumber                 " relative reference of line
 set tabstop=4                      " 1tab = 4word
 
@@ -9,19 +10,18 @@ nnoremap <C-s> 0xx
 set cursorline                     " Highlight the current line
 set cursorcolumn                   " Highlight the current column
 
+set cursorline                     " Change the background color of the cursor line
+set cursorcolumn                   " Change the background color of the cursor column
+
 set laststatus=2                   " Always show the status line
 set cmdheight=2                    " Allocate 2 lines for the message area
 
 set showmatch                      " Highlight matching parentheses
 set helpheight=999                 " Open the help window to fill the screen
-set list                           " Show invisible characters
-
-" Invisible character display symbols
-set listchars=tab:▸\ ,eol:↲,extends:❯,precedes:❮
 
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
-  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
