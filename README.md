@@ -1,5 +1,12 @@
 ## [fish_prompt.fish](https://github.com/Thayato0418/dotfiles/fish_prompt.fish)
 - 参照：https://github.com/kurenaif
+- login時にfishにしたい
+  
+  `which fish`でfishのpathが返ってくるのでそのpathにchshで変更する
+  ```
+  chsh -s `which fish`
+  ```
+  
 ## [.vimrc](https://github.com/Thayato0418/dotfiles/.vimrc)
 - `plug 'morhetz/gruvbox'`のPlugInstallのながれ
   - `cd ~/.vim/bundle/`
